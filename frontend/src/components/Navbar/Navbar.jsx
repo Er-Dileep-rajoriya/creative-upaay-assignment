@@ -18,7 +18,7 @@ const Navbar = () => {
 
   async function handleLogoutUser() {
     try {
-      const res = await axios.get("http://localhost:3500/api/user/logout");
+      const res = await axios.get("https://creative-upaay-assignment-t0d5.onrender.com/api/user/logout");
 
       if (res?.data?.success) {
         toast.success(res?.data?.message);
