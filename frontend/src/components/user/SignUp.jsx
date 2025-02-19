@@ -38,7 +38,7 @@ const SignUp = () => {
     try {
       setLoading(true);
       const res = await axios.post(
-        "http://localhost:3500/api/user/signup",
+        "https://creative-upaay-assignment-t0d5.onrender.com/api/user/signup",
         formData
       );
 
