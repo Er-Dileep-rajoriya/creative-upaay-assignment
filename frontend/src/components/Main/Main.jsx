@@ -21,7 +21,7 @@ function Main() {
   // if user not authenticated then send back them to the login page
   useEffect(() => {
     if (!user) {
-      navigate("/login");
+      navigate("/signup");
     }
   }, []);
 
